@@ -1,0 +1,19 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: redis
+  namespace: default
+spec:
+  releaseName: redis
+  chart:
+    repository: https://kubernetes-charts.storage.googleapis.com
+    name: redis
+    version: 10.5.7
+  values:
+    master:
+      persistence:
+        enabled: false
+    metrics:
+      enabled: true
+    cluster:
+      enabled: false

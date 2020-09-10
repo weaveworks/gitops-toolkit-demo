@@ -1,0 +1,2 @@
+export GIT_USER=weaveworks
+export GIT_REPOSITORY=gitops-toolkit-demo
