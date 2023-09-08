@@ -1,4 +1,4 @@
-# gitops-toolkit-demo
+# DEPRECATED: gitops-toolkit-demo
 GoTK Demo
 
 ## Pre-requisites
